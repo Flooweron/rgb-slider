@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <title>slider</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="topper">
+            <div class="topper__buton">
+                <div class="Sel"><p>Select:</p></div>
+                <div class="topper__buton__r">
+                    <input type="button" value="color" onclick="fun2()" id="col" class="Clrbtn">
+                    <input type="button" value="backgroundColor" onclick="fun1()" d="bac" class="Bckgrndbtn">
+                </div>
+            </div>
+            <div class="info">
+                <div class="color">
+                    <div class="btn-row">
+                        <input type="range" min="0" max="255" value="128" id="rangeR" oninput="fun3()" class="sliderR">
+                      </div>
+                      <div class="btn-row">
+                        <input type="range" min="0" max="255" value="128" id="rangeG" oninput="fun3()" class="sliderG">
+                      </div>
+                      <div class="btn-row">
+                        <input type="range" min="0" max="255" value="128" id="rangeB" oninput="fun3()" class="sliderB">
+                      </div>
+                </div>
+                <div id="pole">Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.</div>
+        </div>
+    </div>
+    <script src="main1.js"></script>
+    <script src="rgb.js"></script>
+    
+</body>
+</html>

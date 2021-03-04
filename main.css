@@ -1,0 +1,144 @@
+.Sel p{
+    position: absolute; 
+    top: -10px; 
+    left: 15px;
+    font-size: 14px; 
+    text-align: center;
+    background: #fff; 
+    width: 100px; 
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    width: 500px;
+    position: relative;
+}
+.topper {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+
+}
+.topper__buton {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 3px;
+    border: 3px solid #000;
+}
+.topper__buton__r {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    margin: 3px;
+}
+.topper__buton__r .Sel{
+    position: relative;
+    padding-top: -15px;
+}
+.topper__buton__r input {
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.topper__buton__r input:active{
+    background-color:blue;
+    transition: color 0s;
+}
+.topper__buton__r input:focus {
+    background-color: blue;
+    color:white
+  }
+  :target {
+    background-color: blue;
+    color: white;
+  }
+.active {
+    background-color: blue;
+    color: white;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.color {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: .3rem;
+    justify-content: space-between;
+}
+.topper__buton button {
+    padding: 10px;
+    margin: 5px;
+}
+#pole {
+    width: 200px;
+    display: flex;
+    padding: .2rem;
+    margin: .2rem;
+    background-color: rgb(187, 198, 230);
+    
+}
+
+#rangeR {
+    background: linear-gradient(to right, #f50000 0%, #fff 100%);
+    border: solid 1px #999a9c;
+    border-radius: 8px;
+    height: 20px;
+    width: 255px;
+    outline: none;
+    border-radius: 2px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+.sliderR::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #ffffff;
+    border: 2px solid rgb(255, 0, 0);
+}
+#rangeG {
+    background: linear-gradient(to right, rgb(0, 255, 0) 0%, #fff 100%);
+    border: solid 1px #999a9c;
+    border-radius: 8px;
+    height: 20px;
+    width: 255px;
+    outline: none;
+    border-radius: 2px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+.sliderG::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #ffffff;
+    border: 2px solid rgb(0, 255, 0);
+}
+#rangeB {
+    background: linear-gradient(to right, rgb(0, 0, 255) 0%, #fff 100%);
+    border: solid 1px #999a9c;
+    border-radius: 8px;
+    height: 20px;
+    width: 255px;
+    outline: none;
+    border-radius: 2px;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
+.sliderB::-webkit-slider-thumb {
+    width: 25px;
+    height: 25px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: #ffffff;
+    border: 2px solid rgb(0, 0, 255);
+}
